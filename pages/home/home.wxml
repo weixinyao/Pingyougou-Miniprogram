@@ -1,0 +1,22 @@
+<!--pages/home/home.wxml-->
+<!--<swiper class="swiper" autoplay circular interval="3000" indicator-dots ="{{true}}" indicator-active-color="#ff5777">
+<block wx:for="{{banners}}" wx:key="{{index}}">
+  <swiper-item class="swiperitem">
+    <image src="{{item.image}}" mode="widthFix"></image>
+  </swiper-item>
+</block>
+</swiper>   -->
+<!-- 首页轮播图 -->
+<Sswiper banners="{{banners}}"></Sswiper>
+<!--推荐-->
+<Wrecommend recommends="{{recommends}}"></Wrecommend>
+<!--流行 -->
+<view class="popular">
+  <image src="/assert/popular/popular.jpg" mode="widthFix"></image>
+</view>
+<!--列表 -->
+<view class="tabcontrol">
+  <block wx:for="{{titles}}" wx:key="{{index}}">
+    <view class="tabitem {{currentIndex == index? 'pink': ''}}" bind:tap="itemclick" data-index="{{index}}">{{item}}</view>
+  </block>
+</view>

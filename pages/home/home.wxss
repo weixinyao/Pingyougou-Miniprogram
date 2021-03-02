@@ -1,0 +1,14 @@
+/* pages/home/home.wxss */
+.popular image {
+  width: 100%;
+}
+.tabcontrol {
+  display: flex;
+}
+.tabitem {
+  flex: 1;
+  text-align: center;
+}
+.pink {
+  color: pink;
+}

@@ -1,0 +1,15 @@
+/* pages/home/homecomponent/w-recommend/w-recommend.wxss */
+.recommend {
+  display: flex;
+  margin-top: 20rpx;
+  border-bottom: 8rpx solid #eee;
+  padding-bottom: 20rpx;
+}
+.recommend-item {
+  display: 1;
+  text-align: center;
+}
+.recommend-item image {
+  width: 160rpx;
+  height: 160rpx;
+}

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "Sswiper": "/components/swiper/swiper",
+    "Wrecommend": "/pages/home/homecomponent/w-recommend/w-recommend"
+  }
+}
